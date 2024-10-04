@@ -23,9 +23,9 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
    ### 3.1.Creo primero a carpeta onde o directorio apache estará montado: `mkdir compartida` 
    ### 3.2.creo o contenedor co comando: `docker run --name "asir_httpd" -it -p 8080:80 -v "$PWD"/compartida:/usr/local/apache2/htdocs/ httpd`
 
-[!TIP]
+>[!TIP]
 >Para saber que as máquinas se "ven", podes facer `ping` entre elas.
->Se o servidor no ten o bash básico `ip` para saber a súa ip, podes instalalo con: `apt update && apt install iproute2`
+>Se o servidor no ten o bash básico `ip` para saber a súa ip, podes instalalo con:`apt update && apt install iproute2`
 
   ## 4. Mostra unha páxina html aloxada no apache2 dende o teu navegador.
    Agora como a miña carpeta "compartida" e o "htdocs" do servidor están montadas, creo na miña máquina un documento de texto chamado index.html, cuna páxina web básica en código HTML simple.
