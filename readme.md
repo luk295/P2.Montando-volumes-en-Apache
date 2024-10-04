@@ -30,4 +30,8 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
   ## 4. Mostra unha páxina html aloxada no apache2 dende o teu navegador.
    Agora como a miña carpeta "compartida" e o "htdocs" do servidor están montadas, creo na miña máquina un documento de texto chamado index.html, cuna páxina web básica en código HTML simple.
 ![Esto es un texto de prueba alternativo a la imagen.](https://github.com/luk295/P2.Montando-volumes-en-Apache/blob/main/imagen.png)
+
+** 4.1 Para añadir a imaxe, fixen unha captura. Gardei a imaxe no repositorio e fixen git commit e git push.
+4.2 Logo copiei o enlace da imaxe, que se encuentra xa no repositorio remoto. Seguindo os pasos de MarkDown. **
  
+ ## 5. Crea un contenedor 'asir_web1' que use este mesmo directorio para 'htdocs' e o puerto 8000
