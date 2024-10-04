@@ -39,6 +39,7 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
 
 >[!NOTE]
 >Creamos o contenedor co comando: `docker run --name "asir_web1" -it -p 8000:80 -v "$PWD"/compartida:/usr/local/apache2/htdocs/ httpd`
+
  Creo o contenedor coas seguintes características:
 
  O contenedor mapeado no porto 8000:80 (8000 máquina real : 80 porto do servidor.)
@@ -50,4 +51,10 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
  ![A segunda captura, esta vez no porto 8000](https://github.com/luk295/P2.Montando-volumes-en-Apache/blob/main/porto8000.png)
 
 Aquí vexo que as páxinas poden verse aínda que ambos servidores compartan nº de puerto 80...
-Isto é porque os contenedores están individualizados e cada un ten o seu propio porto.
+Isto é porque os contenedores están individualizados e cada un ten o seu propio porto 80.
+
+## 6. Crea outro contenedor 'asir_web2' có el mesmo directorio e otro puerto, como o 8090.Comproba que los dous servidores mostran a mesma páxina
+
+Fixen sen darme conta, o exercicio 6 tamén no exercicio 5. 
+
+Así que para abreviar pondré só os camandos, a modo de resumo moi xenérico:
