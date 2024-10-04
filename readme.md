@@ -29,5 +29,5 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
 
   ## 4. Mostra unha páxina html aloxada no apache2 dende o teu navegador.
    Agora como a miña carpeta "compartida" e o "htdocs" do servidor están montadas, creo na miña máquina un documento de texto chamado index.html, cuna páxina web básica en código HTML simple.
-
+![Esto es un texto de prueba alternativo a la imagen.](https://github.com/luk295/P2.Montando-volumes-en-Apache/blob/main/imagen.png)
  
