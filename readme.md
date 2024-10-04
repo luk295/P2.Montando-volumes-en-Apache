@@ -57,4 +57,9 @@ Isto é porque os contenedores están individualizados e cada un ten o seu propi
 
 Fixen sen darme conta, o exercicio 6 tamén no exercicio 5. 
 
-Así que para abreviar pondré só os camandos, a modo de resumo moi xenérico:
+Así que para abreviar pondré só a explicación, a modo de resumo moi xenérico:
+
+1_ Arranco o contenedor 'asir_web2' co porto 8090 da máquina local e 80 da virtual. Fago tamén bind mount na carpeta común na que me quera montar.
+2_ Se o preciso podo instalar os comandos ip e ping para probar se vense as máquinas entre elas.
+3_ Vexo no navegador a páxina web entrando coa dirección ip do servidor e o porto no que está recibindo a resposta.
+4_ E vense as mesmas páxinas web, utilizando portos distintos da máquina local.
