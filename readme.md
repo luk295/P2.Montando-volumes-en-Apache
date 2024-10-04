@@ -46,3 +46,8 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
  Con a carpeta 'compartida' montada sobre a carpeta htdocs do apache do servidor.
 
  Unha vez creada, para coñecer a súa ip fago ip a.
+
+ ![A segunda captura, esta vez no porto 8000](https://github.com/luk295/P2.Montando-volumes-en-Apache/blob/main/porto8000.png)
+
+Aquí vexo que as páxinas poden verse aínda que ambos servidores compartan nº de puerto 80...
+Isto é porque os contenedores están individualizados e cada un ten o seu propio porto.
