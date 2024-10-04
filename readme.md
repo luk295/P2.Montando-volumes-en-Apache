@@ -37,10 +37,12 @@ Para mapear o contenedor volvo a crear un contenedor mapeando o porto e utilizan
  
  ## 5. Crea un contenedor 'asir_web1' que use este mesmo directorio para 'htdocs' e o puerto 8000
 
+>[!NOTE]
+>Creamos o contenedor co comando: `docker run --name "asir_web1" -it -p 8000:80 -v "$PWD"/compartida:/usr/local/apache2/htdocs/ httpd`
  Creo o contenedor coas seguintes características:
- ```
+
  O contenedor mapeado no porto 8000:80 (8000 máquina real : 80 porto do servidor.)
- Con a carpeta 'compartida' montada sobre a carpeta htdocs do apache do servidor
+
+ Con a carpeta 'compartida' montada sobre a carpeta htdocs do apache do servidor.
 
  Unha vez creada, para coñecer a súa ip fago ip a.
-```
